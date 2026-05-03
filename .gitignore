@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+venv/
+.env
+
+# PyTorch model weights (too large for GitHub — download separately)
+*.pt
+
+# Uploaded images
+Flask Deployed App/static/uploads/*.JPG
+Flask Deployed App/static/uploads/*.jpg
+Flask Deployed App/static/uploads/*.png
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
